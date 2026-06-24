@@ -8,73 +8,19 @@ The exercises use the Online Retail dataset from Kaggle and are written as simpl
 
 ### `exercises/01_numpy_online_retail.py`
 
-This first document focuses on NumPy.
-
-It practices:
-
-- Creating NumPy arrays from DataFrame columns
-- Checking array dimensions, shape, and size
-- Changing data types with `astype`
-- Calculating basic statistics
-- Using indexing and slicing
-- Filtering arrays with boolean conditions
-- Creating calculated arrays
-- Finding unique values
-- Practicing `reshape`, `split`, `hstack`, and `vstack`
-- Finding rows with the highest total amount
+This first document focuses on NumPy using real columns from the Online Retail dataset. It practices creating arrays from Pandas columns, checking dimensions, shape, size, and data types, converting values with `astype`, calculating basic statistics, using indexing and slicing, filtering with boolean conditions, creating calculated arrays, finding unique values, using `reshape`, `split`, `hstack`, and `vstack`, and finding the rows with the highest total amount.
 
 ### `exercises/02_pandas_online_retail.py`
 
-This second document focuses on Pandas.
-
-It practices:
-
-- Inspecting a DataFrame with `head`, `info`, `describe`, columns, and dtypes
-- Selecting one column and multiple columns
-- Using `loc` and `iloc`
-- Checking missing values
-- Filling missing descriptions and dropping rows without customer IDs
-- Checking and removing duplicates
-- Filtering sales, returns, and expensive products
-- Creating a `TotalAmount` column
-- Converting dates with `pd.to_datetime`
-- Creating year, month, and day columns
-- Grouping sales by country
-- Grouping quantity by product
-- Creating a pivot table
-- Merging top products with their descriptions
-- Creating a simple summary dictionary
+This second document focuses on Pandas for DataFrame work. It practices inspecting data with `head`, `info`, `describe`, columns, and dtypes, selecting columns, using `loc` and `iloc`, checking missing values, filling missing descriptions, dropping rows without customer IDs, removing duplicates, filtering sales and returns, creating a `TotalAmount` column, converting dates with `pd.to_datetime`, creating year, month, and day columns, grouping sales by country and product, building a pivot table, merging product descriptions, and creating a small summary dictionary.
 
 ### `exercises/03_matplotlib_online_retail.py`
 
-This third document focuses on Matplotlib.
-
-It practices:
-
-- Preparing retail data before plotting
-- Saving charts into an `outputs` folder
-- Creating vertical bar charts
-- Creating horizontal bar charts
-- Creating pie charts
-- Creating line charts
-- Using markers and date formatting
-- Creating scatter plots
-- Creating histograms
-- Creating subplots
-- Printing the chart files created
+This third document focuses on Matplotlib for basic data visualization. It prepares the retail data before plotting, saves charts into an `outputs` folder, and creates vertical bar charts, horizontal bar charts, pie charts, line charts, scatter plots, histograms, and subplots. It also practices using markers, formatting dates on the x-axis, adjusting labels and titles, rotating ticks, applying `tight_layout`, saving figures with `savefig`, closing plots, and printing the chart files that were created.
 
 ### `final_project/online_retail_final_project.py`
 
-This final project combines the course libraries in one script.
-
-It uses:
-
-- KaggleHub to download the Online Retail dataset
-- Pandas to inspect, clean, filter, group, pivot, and merge data
-- NumPy to work with arrays and basic statistics
-- Matplotlib to save charts about sales, returns, products, countries, and monthly results
-
-The project saves chart images into `final_project_outputs/` when it runs.
+This final project combines the course libraries in one script without adding topics outside the course. It uses KaggleHub to download the Online Retail dataset, Pandas to inspect, clean, filter, group, pivot, and merge data, NumPy to work with arrays and basic statistics, and Matplotlib to save charts about sales, returns, products, countries, and monthly results. The project keeps the code compact and saves chart images into `final_project_outputs/` when it runs.
 
 ## Certification
 
