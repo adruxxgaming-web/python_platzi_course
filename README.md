@@ -63,6 +63,27 @@ It practices:
 - Creating subplots
 - Printing the chart files created
 
+### `final_project/online_retail_final_project.py`
+
+This final project combines the course libraries in one script.
+
+It uses:
+
+- KaggleHub to download the Online Retail dataset
+- Pandas to inspect, clean, filter, group, pivot, and merge data
+- NumPy to work with arrays and basic statistics
+- Matplotlib to save charts about sales, returns, products, countries, and monthly results
+
+The project saves chart images into `final_project_outputs/` when it runs.
+
+## Certification
+
+The course diploma is included here:
+
+```text
+certification/diploma-python-data-science.pdf
+```
+
 ## Repository Structure
 
 ```text
@@ -71,6 +92,9 @@ exercises/
 
 final_project/
   Final project files that will combine the course libraries.
+
+certification/
+  Course diploma.
 ```
 
 ## Dataset
@@ -97,4 +121,5 @@ pip install kagglehub numpy pandas matplotlib
 python exercises/01_numpy_online_retail.py
 python exercises/02_pandas_online_retail.py
 python exercises/03_matplotlib_online_retail.py
+python final_project/online_retail_final_project.py
 ```
