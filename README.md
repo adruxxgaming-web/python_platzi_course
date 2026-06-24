@@ -4,7 +4,7 @@ This repository contains Python practice files for a data science course.
 
 The exercises use the Online Retail dataset from Kaggle and are written as simple practice scripts, like a junior data engineer student would build while learning each library step by step.
 
-## Current File
+## Current Files
 
 ### `exercises/01_numpy_online_retail.py`
 
@@ -22,6 +22,28 @@ It practices:
 - Finding unique values
 - Practicing `reshape`, `split`, `hstack`, and `vstack`
 - Finding rows with the highest total amount
+
+### `exercises/02_pandas_online_retail.py`
+
+This second document focuses on Pandas.
+
+It practices:
+
+- Inspecting a DataFrame with `head`, `info`, `describe`, columns, and dtypes
+- Selecting one column and multiple columns
+- Using `loc` and `iloc`
+- Checking missing values
+- Filling missing descriptions and dropping rows without customer IDs
+- Checking and removing duplicates
+- Filtering sales, returns, and expensive products
+- Creating a `TotalAmount` column
+- Converting dates with `pd.to_datetime`
+- Creating year, month, and day columns
+- Grouping sales by country
+- Grouping quantity by product
+- Creating a pivot table
+- Merging top products with their descriptions
+- Creating a simple summary dictionary
 
 ## Repository Structure
 
@@ -55,4 +77,5 @@ pip install kagglehub numpy pandas
 
 ```bash
 python exercises/01_numpy_online_retail.py
+python exercises/02_pandas_online_retail.py
 ```
