@@ -45,6 +45,24 @@ It practices:
 - Merging top products with their descriptions
 - Creating a simple summary dictionary
 
+### `exercises/03_matplotlib_online_retail.py`
+
+This third document focuses on Matplotlib.
+
+It practices:
+
+- Preparing retail data before plotting
+- Saving charts into an `outputs` folder
+- Creating vertical bar charts
+- Creating horizontal bar charts
+- Creating pie charts
+- Creating line charts
+- Using markers and date formatting
+- Creating scatter plots
+- Creating histograms
+- Creating subplots
+- Printing the chart files created
+
 ## Repository Structure
 
 ```text
@@ -70,7 +88,7 @@ path = kagglehub.dataset_download("tunguz/online-retail")
 Install the required libraries:
 
 ```bash
-pip install kagglehub numpy pandas
+pip install kagglehub numpy pandas matplotlib
 ```
 
 ## Run
@@ -78,4 +96,5 @@ pip install kagglehub numpy pandas
 ```bash
 python exercises/01_numpy_online_retail.py
 python exercises/02_pandas_online_retail.py
+python exercises/03_matplotlib_online_retail.py
 ```
